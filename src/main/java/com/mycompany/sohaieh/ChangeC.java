@@ -1,4 +1,4 @@
-package com.mycompany.sohaieh;
+package com.mycompany.sohaieh; // *idk wtf is this for la don't ask me
 
 public class ChangeC {
     private String name;
@@ -32,7 +32,9 @@ public void setCoinAmt(String newCoinAmt){
     this.name = newCoinAmt;
 }
 
-
+/*
+This is assuming that the we only need to provide user input 10 times exactly, if it needs to be dynamic then gg.com HEH
+*/
 public String[] nameList = new String[9];
 public int[] coinList = new int[9];
 
